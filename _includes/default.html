@@ -59,7 +59,7 @@
 			</a>
 			{% endif %}
 			<a class="navbar-brand" href="{{ site.BASE_PATH }}/">
-				<img src="//www.gravatar.com/avatar/{{site.author.email_md5}}?s=35" class="img-circle" />
+				<img src="{{ site.BASE_PATH }}/assets/media/logoicecream.jpg" class="img-circle" />
 				{{ site.title }}
 			</a>
 		</div>
@@ -80,11 +80,11 @@
 			<i class="fa fa-bars"></i>
 		</button>
 		<ul class="dropdown-menu" role="menu">
-			<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i>Home</a></li>
-			<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder"></i>Categories</a></li>
-			<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><i class="fa fa-tags"></i>Tags</a></li>
+			<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i>홈</a></li>
+			<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder"></i>목록</a></li>
+			<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><i class="fa fa-tags"></i>태그</a></li>
 			<li class="divider"></li>
-			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>위로가기</a></li>
 		</ul>
 	</div>
 
@@ -98,7 +98,7 @@
 		<footer>
 			<hr/>
 			<p>
-				&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with <a href="http://jekyllrb.com/">Jekyll</a>. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+				&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with <a href="http://jekyllrb.com/">Jekyll</a>
 			</p>
 		</footer>
 	</div>
