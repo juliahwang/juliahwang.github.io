@@ -12,7 +12,7 @@ _site
 __pycache__/
 local_settings.py
 db.sqlite3
-media
+
 
 ### macOS ###
 *.DS_Store
@@ -134,7 +134,5 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
 
 # End of https://www.gitignore.io/api/macos,django,python
