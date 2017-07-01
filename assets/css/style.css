@@ -23,13 +23,13 @@ body{
 
 .sidebar-header .title a{
 	text-decoration: none;
-	color: #212121;
+	color: #333;
 }
 
 a.nav-link {
 	padding-bottom: 5px;
 	padding-top: 7px;
-	color: #212121;
+	color: #333;
 }
 a.nav-link i{
 	font-size: 16px;
@@ -82,7 +82,7 @@ article .share .gplus:hover {
 }
 
 .page-header {
-	color: #212121;
+	color: #333;
 	padding-left: 50px;
 	/*text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);*/
 }
@@ -124,14 +124,14 @@ article.home h4,
 article.home h5,
 article.home h6 {
 	font-family: 'Ubuntu', sans-serif;
-	color: #212121;
+	color: #333;
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-	color: #1F000D;
+	color: #333;
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
