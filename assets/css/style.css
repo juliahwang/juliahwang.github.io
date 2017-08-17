@@ -1,4 +1,5 @@
-@import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
+@import url(//fonts.googleapis.com/css?family=Bungee+Inline);
+@import url(//fonts.googleapis.com/css?family=Roboto);
 
 body{
 	color: #0D1217;
@@ -37,7 +38,7 @@ a.nav-link i{
 a.nav-link:hover { color: #777; }
 
 #bio {
-	font-family: "Courier New", Courier, monospace;
+	font-family: 'Roboto', sans-serif;
 	font-size: 11px;
 	margin: 0 auto;
 	margin-bottom: 10px;
@@ -83,7 +84,7 @@ article .share .gplus:hover {
 
 .page-header {
 	color: #333;
-	padding-left: 50px;
+	padding-left: 30px;
 	/*text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);*/
 }
 
@@ -94,7 +95,7 @@ article .share .gplus:hover {
 }
 
 article{
-	margin-bottom: 40px;
+	margin-bottom: 55px;
 }
 
 .article_body{
@@ -103,9 +104,11 @@ article{
 }
 
 .post-date {
+	font-family: 'Roboto', sans-serif;
+	color: #bababa;
 	text-transform: uppercase;
 	font-size: 14px;
-	letter-spacing: 1px;
+ 	letter-spacing: 0.5px;
 }
 
 article {
@@ -116,14 +119,15 @@ article.home div a, article.home pre a { color: #1F000D; }
 article.home div a:hover, article.home pre a:hover { color: #7A746E; text-decoration: none; }
 article img { max-width: 100%; }
 
-h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
+h1 { font-family: 'Bungee Inline', cursive; }
+h1,h2,h3,h4,h5,h6 { font-family: 'Roboto', sans-serif; }
 article.home h1,
 article.home h2,
 article.home h3,
 article.home h4,
 article.home h5,
 article.home h6 {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #333;
 }
 
@@ -148,7 +152,7 @@ article.home h4 a:hover {
 
 footer {
 	padding-top: 15px;
-	font-family: 'Ubuntu';
+	font-family: 'Roboto', sans-serif;
 }
 
 /* nav-vertical-tabs component */
@@ -174,7 +178,7 @@ footer {
     border-radius: 4px 0 0 4px;
 }
 
-.badge { background: #F2756A; }
+.badge { background: #ffd026; }
 
 #nav-menu{
     position: fixed;
