@@ -2,8 +2,9 @@
 theme :
   name : dbyll
 ---
+<head>
+  {% if site.google_analytics %}
+    {% include google-analytics %}
+  {% endif %}
+</head>
 {% include default.html %}
-
-{% if site.google_analytics %}
-  {% include google_analytics %}
-{% endif %}
