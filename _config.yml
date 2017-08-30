@@ -7,6 +7,7 @@ highlighter: rouge
 markdown: kramdown
 disqus: qufskan9396
 google_analytics:
+  id: UA-105253680-1
 title: Julia's Develog
 
 defaults:
