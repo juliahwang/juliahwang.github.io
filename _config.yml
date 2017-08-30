@@ -9,6 +9,7 @@ disqus: qufskan9396
 google_analytics:
   id: UA-105253680-1
 title: Julia's Develog
+analytics.js: ga('send', 'pageview', '/search_results.php?q=keyword');
 
 defaults:
   -
