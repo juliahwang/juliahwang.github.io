@@ -20,18 +20,18 @@ Problem 1
 """
 
 a = 1000
-def sums(a):
+def problem1(a):
     num_list = []
     for i in range(a):
         if i % 3 == 0 or i % 5 == 0:
+        # if not (i % 3 and i % 5):
             num_list.append(i)
-    result_list = set(num_list)
     result = 0
-    for num in result_list:
+    for num in num_list:
         result += num
     return result
 
-sums(a)
+problem1(a)
 # 233168
 ```
 
@@ -39,6 +39,6 @@ sums(a)
 
 ### 풀이 
 
-먼저 매개변수로 주어진 수의 범위 안에서 3의 배수, 5의 배수를 모두 구한 뒤 겹치는 수를 파이썬 내장 함수인 `set()`으로 제거한다. 중복을 제거한 숫자들이 담긴 리스트를 반복문으로 나오는 각각의 값들을 결과변수에 더하여 변수를 리턴하도록 구현했다.
+먼저 매개변수로 주어진 수의 범위 안에서 3의 배수이거나 5의 배수인 수를 `num_list`에 추가한다. 리스트에 모두 추가된 후에는 다시 반복문으로 초기값이 0인 결과변수인 `result`에 하나씩 더하여 총합을 리턴하도록 구현했다.
 
 <br>
