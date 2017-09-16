@@ -43,3 +43,5 @@ plugins:
 
 include:
   - _site
+
+theme: jekyll-theme-slate
