@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Two Scoops of Django - 25장. REST API 구현하기 <1부>
+title: Two Scoops of Django - 16장. REST API 구현하기 <1부>
 categories: [도서 리뷰]
 tags: [django, REST, HTTP, API]
 description:
