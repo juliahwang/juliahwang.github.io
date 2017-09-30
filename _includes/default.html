@@ -30,7 +30,7 @@
 
 		<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.BASE_PATH }}/feed.xml">
 		{% if page.use_math %}
-			{% include mathjax_support.html %}
+			{{ "mathjax_support.html" | relative_url }}
 		{% endif %}
 	</head>
 
