@@ -7,19 +7,18 @@ description:
 use_math: true
 ---
 
+
 알고리즘 관련 포스팅을 하면서 수식을 사용할 필요성이 생겼다. 브라우저에 수식을 렌더해주는 `MathJax`를 지킬 블로그에 적용하는 방법을 소개하려고 한다. 웹에서 비교적 쉬운 방법을 찾아 번역하였다. 출처는 포스트 하단을 참고하기 바란다.
 
 <br>
 
-$$
-   |\psi_1\rangle = a|0\rangle + b|1\rangle
-$$
+$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 
-적용한 후에는 위와 같이 브라우저에서 수식이 표시되는 것을 볼 수 있다. 
+적용하고 난 다음에는 위와 같이 브라우저에서 수식이 표시될 것이다. 
 
 <br>
 
-## 1. `_include` 폴더에 mathjax 설정 생성하기
+## 1. `_includes` 폴더에 mathjax 설정 생성하기
  
 기본 테마나 지금 사용중인 블로그 테마에는 수식이 적용되지 않아서 알아본 결과 `Mathjax`를 사용하겠다는 설정파일을 추가하고 수식이 있는 마크다운 파일에 옵션값을 주면 해당 파일에만 `Mathjax`가 적용된다. 
 
@@ -58,7 +57,7 @@ $$
   <head>
     ...
     {% if page.use_math %}
-      {% include mathjax_support %}
+      {% include mathjax_support.html %}
     {% endif %}
   </head>
   <body>
