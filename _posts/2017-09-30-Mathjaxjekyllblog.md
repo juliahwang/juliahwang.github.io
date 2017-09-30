@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mathjax로 지킬 블로그에 수식 적용하기 
-categories: [Html]
+categories: [Jekyll Blog]
 tags: [mathjax, blog]
 description:
 ---
@@ -68,7 +68,7 @@ $$
 
 <br>
 
-## 3. 포스트 앞에 `use_math` 변수 등록하기
+## 3. 포스트 상단에 `use_math` 변수 등록하기
 
 게시물에서 수학 수식을 사용하려면 게시물의 앞부분에 `use_math` 변수가 있어야하며 해당 값을 true로 설정해준다.
 
