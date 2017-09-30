@@ -4,7 +4,6 @@ title: Mathjax로 지킬 블로그에 수식 적용하기
 categories: [Html]
 tags: [mathjax, blog]
 description:
-use_math: true
 ---
 
 알고리즘 관련 포스팅을 하면서 수식을 사용할 필요성이 생겼다. 브라우저에 수식을 렌더해주는 `MathJax`를 지킬 블로그에 적용하는 방법을 소개하려고 한다. 웹에서 비교적 쉬운 방법을 찾아 번역하였다. 출처는 포스트 하단을 참고하기 바란다.
