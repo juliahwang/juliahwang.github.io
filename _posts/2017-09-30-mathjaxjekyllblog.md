@@ -49,22 +49,20 @@ $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 
 ## 2. 페이지 기본 레이아웃에 설정 적용하기
 
-다음과 같이 `default.html`이나 `layout.html`에 설정을 추가한다. `<head>` 태그 내에 페이지, 즉 마크다운 파일 하나하나를 등록할 때마다 `use_math` 설정이 `true`이면 앞서 추가해준 `mathjax_support.html`을 렌더해준다는 의미이다.  
+`default.html`이나 `layout.html`에(테마에 따라) 템플릿태그로 위의 설정파일을 `include`해준다. 
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    ...
-    {% if page.use_math %}
-      {% include mathjax_support.html %}
-    {% endif %}
-  </head>
-  <body>
-    ...
-  </body>
-</html>
+
+
+`<head>` 태그 내에 페이지, 즉 마크다운 파일 하나하나를 등록할 때마다 `use_math` 설정이 `true`이면 앞서 추가해준 `mathjax_support.html`을 렌더해준다는 의미이다.  
+
+
 ```
+{ % if page.use_math % }
+  { % include mathjax_support % } 
+{ % endif % }
+```
+
+템플릿태그를 보여주기 위해 `{`와 `%` 사이를 띄웠다. 파일에 작성할 때는 띄어쓰기를 제거하면 된다.
 
 <br>
 
