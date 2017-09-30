@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mathjax로 지킬 블로그에 수식 적용하기 
-categories: [Jekyll Blog]
+categories: [Html]
 tags: [mathjax, blog]
 description:
 use_math: true
