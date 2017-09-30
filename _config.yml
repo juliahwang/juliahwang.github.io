@@ -41,7 +41,7 @@ BASE_PATH:
 plugins:
   - jekyll-paginate
 
-include:
-  - _site
+# include:
+#  - _site
 
 # theme: jekyll-theme-slate
