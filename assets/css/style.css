@@ -146,6 +146,19 @@ article.home h2 a:hover {
 	text-decoration: none;
 }
 
+div.article_body table {
+	width: 100%;
+}
+
+div.article_body table thead {
+	line-height: 3rem;
+}
+div.article_body table tbody {
+	line-height: 3rem;
+}
+div.article_body table tbody tr {
+	border: 1px solid lavenderblush;
+}
 h1 { font-family: 'Bungee Inline', cursive; }
 h1,h2,h3,h4,h5,h6 { font-family: 'Roboto', sans-serif; }
 article.home h1,
@@ -222,3 +235,5 @@ footer {
 ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
+
+
