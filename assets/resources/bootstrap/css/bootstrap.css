@@ -301,6 +301,12 @@ outline:thin dotted #333;
 outline:5px auto -webkit-focus-ring-color;
 outline-offset:-2px
 }
+h2.post-title a {
+color: #333;
+}
+h2.post-title a:hover {
+color: #525252;
+}
 img
 {
 vertical-align:middle
