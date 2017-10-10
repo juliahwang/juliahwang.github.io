@@ -126,13 +126,22 @@ article.col-sm-11 h2 a:hover {
 
 article.home div a, article.home pre a { color: #1F000D; }
 article.home div a:hover, article.home pre a:hover { color: #7A746E; text-decoration: none; }
-article img { max-width: 100%; }
-
+article
 article.col-sm-11 h2 a {
 	color: #1F000D;
 }
 
 article.col-sm-11 h2 a:hover {
+	color: #7A746E;
+	text-decoration: none;
+}
+ img { max-width: 100%; }
+
+article.home h2 a {
+	color: #1F000D;
+}
+
+article.home h2 a:hover {
 	color: #7A746E;
 	text-decoration: none;
 }
@@ -171,6 +180,7 @@ article.home h4 a:hover {
 footer {
 	padding-top: 15px;
 	font-family: 'Roboto', sans-serif;
+	margin-bottom: 15px;
 }
 
 /* nav-vertical-tabs component */
