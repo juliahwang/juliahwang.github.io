@@ -113,12 +113,29 @@ article{
 
 article {
 	padding: 0 2% 0;
-	width: 92%;
+}
+
+article.col-sm-11 h2 a { 
+	color: #1F000D;
+}
+
+article.col-sm-11 h2 a:hover {
+	color: #7A746E;
+	text-decoration: none;
 }
 
 article.home div a, article.home pre a { color: #1F000D; }
 article.home div a:hover, article.home pre a:hover { color: #7A746E; text-decoration: none; }
 article img { max-width: 100%; }
+
+article.col-sm-11 h2 a {
+	color: #1F000D;
+}
+
+article.col-sm-11 h2 a:hover {
+	color: #7A746E;
+	text-decoration: none;
+}
 
 h1 { font-family: 'Bungee Inline', cursive; }
 h1,h2,h3,h4,h5,h6 { font-family: 'Roboto', sans-serif; }
