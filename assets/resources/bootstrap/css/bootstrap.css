@@ -4414,16 +4414,18 @@ display:inline
 }
 .pager li>a,.pager li>span
 {
+color: #533EDB;
 display:inline-block;
 padding:5px 14px;
 background-color:#fff;
 border:1px solid #ddd;
-border-radius:15px
+border-radius:16px;
 }
 .pager li>a:hover,.pager li>a:focus
 {
 text-decoration:none;
-background-color:#eee
+background-color:#eee;
+border-color: #533EDB;
 }
 .pager .next>a,.pager .next>span
 {

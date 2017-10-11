@@ -115,7 +115,7 @@ article {
 	padding: 0 2% 0;
 }
 
-article.col-sm-11 h2 a { 
+article.col-sm-11 h2 a {
 	color: #1F000D;
 }
 
@@ -236,4 +236,6 @@ ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
 
-
+a.footer-color {
+	color: #533EDB;
+}
