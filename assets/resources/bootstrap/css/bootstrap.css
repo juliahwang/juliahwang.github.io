@@ -4439,7 +4439,8 @@ float:left
 {
 color:#999;
 cursor:not-allowed;
-background-color:#fff
+border-color: #ddd;
+background-color:#fff;
 }
 .label
 {
