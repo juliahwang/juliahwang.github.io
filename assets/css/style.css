@@ -221,6 +221,12 @@ footer {
 
 .badge { background: #ffd026; }
 
+@media only screen and (max-width:445px) {
+	.badge {
+		visibility: hidden;
+	}
+}
+
 #nav-menu{
     position: fixed;
     top: 45px;
