@@ -3,7 +3,7 @@ layout: post
 title: 오늘의 vim - vim 에디터의 다양한 모드들
 categories: [Vim]
 tags: [Vim]
-description: 
+description:
 ---
 
 `오늘의 vim`에서는 알아두면 유용한 `vim` 단축키 및 기능을 하루에 하나씩 정리합니다. 이번 포스트에서는 빔 에디터에서 지원하는 6개의 모드들에 대해 소개합니다.
@@ -18,7 +18,7 @@ description:
 
 - 빔 에디터를 실행했을 때(~~아무런 초기모드 옵션이 없을 때~~) 기본 창의 상태이다.
 - 해당 모드에서 입력되는 글자들은 모두 명령으로 인식된다.
-- `evim` 인터페이스를 사용하는 경우에는 기본 창이 `Insert mode`이다. (이 때는 `Ctrl + O`를 통해 `Normal mode`로 변경할 수 있다.) 
+- `evim` 인터페이스를 사용하는 경우에는 기본 창이 `Insert mode`이다. (이 때는 `Ctrl + O`를 통해 `Normal mode`로 변경할 수 있다.)
 - `Command mode`라고도 부른다.
 - 더 자세한 설명을 보려면 빔 에디터창 명령행에 `:help Normal-mode`을 입력하면 된다.
 
@@ -50,7 +50,7 @@ description:
 - `Normal mode`와 비슷하지만 이동 명령을 하이라이트 영역에서 사용할 수 있다.
 - 비이동 명령들을 사용할 경우 하이라이트된 영역에 적용된다.
 - `showmode` 옵션이 활성화되어있을 경우 창 하단에 `--VISUAL--` 표시가 뜬다.
-- `Visual mode`에는 `plain`, `block`, `linewise` 이렇게 3가지의 강조 모드가 지원된다. 
+- `Visual mode`에는 `plain`, `block`, `linewise` 이렇게 3가지의 강조 모드가 지원된다.
 - 더 자세한 설명을 보려면 빔 에디터창 명령행에 `:help Visual-mode`을 입력하면 된다.
 
 <br>
@@ -78,7 +78,7 @@ description:
 
 ![block3](https://github.com/juliahwang/juliahwang.github.io/blob/master/_posts/images/2017-10-12/block3.png?raw=true)
 
-`Insert mode`에서 `c`를 입력하면  문자를 변경할 수 있다. 
+`Insert mode`에서 `c`를 입력하면  문자를 변경할 수 있다.
 
 `Insert mode`에서는 커서의 위치에만 입력한 문자가 표시된다.(모드를 나갈 때까지는 선택한 블록영역에 적용되지 않는다.)
 
@@ -88,7 +88,7 @@ description:
 
 `ESC`를 누르면 변경하려는 문자가 선택한 영역 모두에 적용된다.
 
-- 문자를 변경하지 않고 입력하고 싶은 경우에는 `I` 또는 `A`를 사용한다. 
+- 문자를 변경하지 않고 입력하고 싶은 경우에는 `I` 또는 `A`를 사용한다.
 - 더 자세한 설명을 보려면 빔 에디터창 명령행에 `:help visual-block`을 입력하면 된다.
 
 <br>
@@ -119,7 +119,7 @@ description:
 - `Visual mode`와 비슷하지만 사용가능한 명령어가 다르다.
 - 출력가능한 문자열을 입력할 경우 선택된 부분을 삭제하고 `Insert mode`로 변한다.
 - `showmode` 옵션이 활성화되어 있을 경우 창 하단에 `--SELECT--` 표시가 뜬다.
-- 다음과 같이 명령행에 입력하여 활성화시킨다. 
+- 다음과 같이 명령행에 입력하여 활성화시킨다.
 
 |단축키|설명|
 |:--:|:--:|
@@ -159,7 +159,7 @@ description:
 ### 6. Ex mode
 
 - `Command-line mode`와 비슷해서 실행되면 `Ex mode`도 실행된다.
-- 하지만 커맨드 라인 모드와 다르게 `Normal mode`로 자동으로 돌아오지 않는다. 
+- 하지만 커맨드 라인 모드와 다르게 `Normal mode`로 자동으로 돌아오지 않는다.
 - Ex 모드는 일괄처리(batch processing)를 위해 설계되었으므로 매핑이나 명령줄 편집은 지원하지 않는다.
 - 일괄처리를 위해서는 빔을 실행할 때 `-E`를 입력하여 바로 해당 모드를 활성화할 수 있다.
 - 되돌아오려면 `:visual`을 입력한다.
@@ -171,9 +171,4 @@ description:
 
 ## 마치며
 
-참고자료
-
-<a href="https://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes" target="_blank">Learning the vi Editor/Vim/Modes</a>
-
-
-
+참고자료 - <a href="https://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes" target="_blank">Learning the vi Editor/Vim/Modes</a>
