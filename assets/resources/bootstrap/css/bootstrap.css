@@ -837,7 +837,8 @@ width:66.66666666666666%
 }
 .col-sm-9
 {
-width:75%
+/* original - width:75%*/
+width:82%
 }
 .col-sm-10
 {

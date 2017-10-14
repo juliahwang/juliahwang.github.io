@@ -5,7 +5,7 @@ tagline:
 
 {% for post in paginator.posts %}
 
-<article class="col-sm-11">
+<article class="col-sm-9">
 
   <span class="post-date">
     {% assign d = post.date | date: "%d" | plus:'0' %}
@@ -40,8 +40,8 @@ tagline:
 </article>
 {% endfor %}
 
-<hr class="col-sm-11" />
-<ul class="pager col-sm-11">
+<hr class="col-sm-9" />
+<ul class="pager col-sm-9">
 
   {% if paginator.previous_page %}
   <li class="previous">
@@ -71,7 +71,7 @@ tagline:
   </li>
   {% endif %}
 </ul>
-<footer class="col-sm-11">
+<footer class="col-sm-9">
   <span>
     &copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with <a class="footer-color" href="http://jekyllrb.com/">Jekyll</a>
   </span>
