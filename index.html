@@ -6,7 +6,6 @@ tagline:
 {% for post in paginator.posts %}
 
 <article class="col-sm-9">
-
   <span class="post-date">
     {% assign d = post.date | date: "%d" | plus:'0' %}
     {{ post.date | date: "%B" }}
@@ -36,7 +35,6 @@ tagline:
     {% endif %}
     {% endif %}
   </div>
-
 </article>
 {% endfor %}
 
