@@ -2,6 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 .*.swp
+_post/
 
 # Created by https://www.gitignore.io/api/macos,django,python
 
