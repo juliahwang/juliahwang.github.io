@@ -108,9 +108,9 @@ description:
 
 <br>
 
-![v-event](https://github.com/juliahwang/juliahwang.github.io/blob/master/_posts/images/2017-10-16/v-event.png?raw=true)
-
 이 경우에는 자바스크립트 이벤트로 글자를 입력할 때마다 `v-model`이 데이터바인딩을 할 수 있도록 해주었다. 
+
+![v-event](https://github.com/juliahwang/juliahwang.github.io/blob/master/_posts/images/2017-10-16/v-event.png?raw=true)
 
 <br>
 
