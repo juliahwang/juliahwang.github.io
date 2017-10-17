@@ -10,7 +10,6 @@ description:
 
 <br>
 
-
 ## `v-text`와 `v-html`
 
 기존에 템플릿 표현식으로 데이터를 삽입했다. 그렇지만 `Vue.js`에서는 HTML 요소에 목적에 따라 다양한 디렉티브를 사용할 수 있다. 
@@ -103,9 +102,11 @@ description:
 
 <br>
 
+`v-model` 디렉티브를 사용했을 때 아쉬운 점은 영어를 제외한 언어 입력시 마지막 글자가 표시되지 않는다는 점이다.
+
 ![diff](https://github.com/juliahwang/juliahwang.github.io/blob/master/_posts/images/2017-10-16/diff.png?raw=true)
 
-`v-model` 디렉티브를 사용했을 때 아쉬운 점은 영어를 제외한 언어 입력시 마지막 글자가 표시되지 않는다는 점이다. 
+<br>
 
 ![v-event](https://github.com/juliahwang/juliahwang.github.io/blob/master/_posts/images/2017-10-16/v-event.png?raw=true)
 
