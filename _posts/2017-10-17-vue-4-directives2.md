@@ -8,7 +8,7 @@ description:
 
 지난 포스트에 이어 선언적 렌더링을 위해 HTML 요소 내부에서 사용할 수 있는 `디렉티브`(directive) 중 `v-show`, `v-if`에 대해 알아보고자 한다.
 
-<br>
+<brs
 
 ## `v-if`와 `v-show`의 차이
 
