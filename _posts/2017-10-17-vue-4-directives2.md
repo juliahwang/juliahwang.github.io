@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3. 디렉티브 (directives) <1부> v-if, v-show, v-for
+title: 4. 디렉티브 (directives) <2부> v-if, v-show, v-for
 categories: [Vuejs]
 tags: [Vue.js]
 description: 
