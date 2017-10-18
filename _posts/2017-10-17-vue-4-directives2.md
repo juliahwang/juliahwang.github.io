@@ -39,13 +39,13 @@ description:
 
 `v-show` 디렉티브를 사용하면 실제 조건이 충족되지 않았음에도 이미지가 콘솔에 렌더링되어 있는 것을 확인할 수 있다. 
 
-![v-show]()
+![v-show](https://github.com/juliahwang/juliahwang.github.io/blob/master/_posts/images/2017-10-19/v-show.png?raw=true)
 
 <br>
 
 반면 `v-if`를 사용한 경우 조건이 충족되지 않으면 콘솔창에 렌더링되지 않는다는 것을 확인할 수 있다.
 
-![v-if]()
+![v-if](https://github.com/juliahwang/juliahwang.github.io/blob/master/_posts/images/2017-10-19/v-if.png?raw=true)
 
 <br>
 
@@ -77,7 +77,7 @@ description:
 
 ### (1) 데이터를 반복하는 경우 
 
-![v-for]()
+![v-for](https://github.com/juliahwang/juliahwang.github.io/blob/master/_posts/images/2017-10-19/v-for.png?raw=true)
 
 (~~위의 번호는 더미 번호이다.~~)
 
@@ -222,7 +222,8 @@ Vue.set(list.contacts, 0, {no:100, name:"james", tel:"010-2020-3030", address:"�
 list.contacts[0].name = "james";
 ```
 
-`v-for` 디렉티브는 `push`,`pop`, `shift`, `unshift`, `splice`, `filter`, `contact`, `slice`, `reduce` 등과 같은 배열 메서드를 사용할 경우 감시자에 의해 
+`v-for` 디렉티브는 `push`,`pop`, `shift`, `unshift`, `splice`, `filter`, `contact`, `slice`, `reduce` 등과 같은 배열 메서드를 사용할 경우 감시자에 의해 변경을 추적할 수 있다.
+
 <br>
 
 ## DOM 요소의 위치 직접 변경하기 `:key`
