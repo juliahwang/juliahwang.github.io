@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2. vue파일에서 MVVM 패턴 구현하기
-categories: [Vue.js]
+categories: [Vuejs]
 tags: [Vue.js]
 description: 
 ---

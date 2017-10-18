@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3. 디렉티브 (directives) <1부> v-text, v-bind, v-model
-categories: [Vue.js]
+categories: [Vuejs]
 tags: [Vue.js]
 description: 
 ---
