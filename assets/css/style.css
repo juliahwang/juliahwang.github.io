@@ -136,7 +136,8 @@ article.col-sm-11 h2 a:hover {
 	color: #7A746E;
 	text-decoration: none;
 }
- img { max-width: 100%; }
+
+img { max-width: 100%; box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important; }
 
 article.home h2 a {
 	color: #1F000D;
