@@ -91,7 +91,7 @@ description:
 
 ```html
 <tr v-for="(contact, index) in contacts">
-  <td>{{ index + 1 }}</td>
+  <td>{% raw %}{{ index + 1 }}{% endraw %}</td>
   ...
 ```
 
@@ -106,7 +106,7 @@ description:
 <div id="example">
   <select id="regions">
     <option disabled="disabled" selected>지역을 선택하세요</option>
-        <option v-for="(val, key) in regions" :value="key">{{ val }}</option>
+        <option v-for="(val, key) in regions" :value="key">{% raw %} {{ val }} {% endraw %}</option>
   </select>
 </div>
 ```
@@ -139,7 +139,7 @@ description:
 <div id="example">
   <select id="regions">
     <option disabled="disabled" selected>지역을 선택하세요</option>
-    <option v-for="(val, key, index) in regions" :value="key">{{ index + 1 }} : {{ val }}</option>
+    <option v-for="(val, key, index) in regions" :value="key">{% raw %} {{ index + 1 }} : {{ val }} {% endraw %}</option>
   </select>
 </div>
 ```
@@ -155,10 +155,10 @@ description:
 <tbody id="contacts">
   <tr v-for="(contact, index) in contacts" 
     v-if="contact.address.indexOf('서울') > -1">
-    <td>{{ index + 1 }}</td>
-    <td>{{ contact.name }}</td>
-    <td>{{ contact.tel }}</td>
-    <td>{{ contact.address }}</td>
+    <td>{% raw %}{{ index + 1 }}{% endraw %}</td>
+    <td>{% raw %}{{ contact.name }}{% endraw %}</td>
+    <td>{% raw %}{{ contact.tel }}{% endraw %}</td>
+    <td>{% raw %}{{ contact.address }}{% endraw %}</td>
   </tr>
 </tbody>
 ```
@@ -173,10 +173,10 @@ description:
 <tbody id="contacts">
   <template v-for="(contact, index) in contacts">
     <tr>
-      <td>{{ contact.no }}</td>
-      <td>{{ contact.name }}</td>
-      <td>{{ contact.tel }}</td>
-      <td>{{ contact.address }}</td>
+      <td>{% raw %}{{ index + 1 }}{% endraw %}</td>
+      <td>{% raw %}{{ contact.name }}{% endraw %}</td>
+      <td>{% raw %}{{ contact.tel }}{% endraw %}</td>
+      <td>{% raw %}{{ contact.address }}{% endraw %}</td>
     </tr>
     
     <!-- index를 5로 나누었을 때 나머지가 4일 경우 -->
@@ -234,10 +234,10 @@ list.contacts[0].name = "james";
 <tbody id="contacts">
   <template v-for="(contact, index) in contacts">
     <tr :key="contact.no">
-      <td>{{ contact.no }}</td>
-      <td>{{ contact.name }}</td>
-      <td>{{ contact.tel }}</td>
-      <td>{{ contact.address }}</td>
+      <td>{% raw %}{{ index + 1 }}{% endraw %}</td>
+      <td>{% raw %}{{ contact.name }}{% endraw %}</td>
+      <td>{% raw %}{{ contact.tel }}{% endraw %}</td>
+      <td>{% raw %}{{ contact.address }}{% endraw %}</td>
     </tr>
   </template>
 </tbody>

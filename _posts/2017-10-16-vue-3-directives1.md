@@ -6,7 +6,13 @@ tags: [Vue.js]
 description: 
 ---
 
-이번 포스트에서는 템플릿 표현식(`{{}}`) 말고도 선언적 렌더링을 위해 HTML 요소 내부에서 사용할 수 있는 `디렉티브`(directive)에 대해 알아보고자 한다.
+이번 포스트에서는 템플릿 표현식(
+
+```
+{% raw %} {{}} {% endraw %}
+```
+
+) 말고도 선언적 렌더링을 위해 HTML 요소 내부에서 사용할 수 있는 `디렉티브`(directive)에 대해 알아보고자 한다.
 
 <br>
 
@@ -16,7 +22,9 @@ description:
 
 ```html
 <div id="simple">
-  <!--{{ message }}를 사용한 것과 같은 효과이다.-->
+  {% raw %}{{ message }}{% endraw %}
+  
+  <!--위와 같은 효과.-->
   <h2 v-text="message"></h2>
 </div>
 ```
