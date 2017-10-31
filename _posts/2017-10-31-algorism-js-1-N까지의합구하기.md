@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 1. N 까지의 합 구하기
+title: 1. 자바스크립트 - N 까지의 합 구하기
 categories: [algorism-javascript]
 tags: [Vue.js]
 description: 
@@ -12,7 +12,7 @@ description:
 
 ## 코드 및 풀이
 
-`this`의 개념은 매우 중요하다. 함수 안에서 `this`는 도큐먼트 객체를 참조한다. 만약 함수 내부에서 다른 콜백 함수를 실행하면 this는 다른 값으로 연결될 수 있으므로 주의하여야 한다. 
+`this`의 개념은 매우 중요하다. 함수 안에서 `this`는 도큐먼트 객체를 참조한다. 만약 함수 내부에서 다른 콜백 함수를 실행하면 `this`는 다른 값으로 연결될 수 있으므로 주의하여야 한다. 
 
 <a href="http://juliahwang.kr/javascript/2017/10/19/js-14-this.html" target="_blank">this 더 알아보기</a>
 
