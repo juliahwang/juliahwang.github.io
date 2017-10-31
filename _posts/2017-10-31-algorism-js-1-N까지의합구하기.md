@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 1. <JavaScript> - N 까지의 합 구하기
+title: 1. N 까지의 합 구하기
 categories: [algorism-javascript]
 tags: [Vue.js]
 description: 
