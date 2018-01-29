@@ -8,9 +8,11 @@ description:
 
 이번 포스팅에서는 서비스 계정을 생성하여 Kubernetes 엔진 환경을 구성하는 방식에 대해 설명할 예정이다. 
 
-## 1. 서비스 계정 생성
+<br>
 
-서비스 계정은 IAM 내에서 제공중이다. [해당 콘솔페이지](https://console.cloud.google.com/projectselector/iam-admin/serviceaccounts)에서 콘솔 탭메뉴의 `IAM`을 선택한 후 `서비스 계정` 탭을 눌러 알맞은 프로젝트 내에 계정을 생성하면 된다. 
+## 1. 서비스 계정(Service Account) 생성
+
+서비스 계정은 IAM 내에서 제공중이다. <a href="https://console.cloud.google.com/projectselector/iam-admin/serviceaccounts" target="_blank">해당 콘솔페이지</a>에서 콘솔 탭메뉴의 `IAM`을 선택한 후 `서비스 계정` 탭을 눌러 알맞은 프로젝트 내에 계정을 생성하면 된다. 
 
 이 때, 역할에서 `Cloud SQL` 내의 `Cloud SQL Client`를 부여해준다. 이 서비스 계정 ID는 반드시 유일할 필요는 없지만 알아보기 쉬운 프로젝트 관련 이름으로 정해주는 것이 좋다.
 
@@ -24,7 +26,7 @@ description:
 
 이제 이 파일을 생성해보자. 이 때도 `connectionName`이 필요하다. 이 부분을 생략했다면 이전 포스팅을 참고하면 된다. 
 
-```powershell
+```yaml
 # app.yaml
 
 apiVersion: extensions/v1beta1
